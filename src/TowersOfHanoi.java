@@ -15,7 +15,6 @@ public class TowersOfHanoi {
         if(x==1) {
             System.out.println(turn + ": Move one disk from " + from + " to " + to);
             turn++;
-
         }
         else{
             solve(x-1, from, 6-(to+from));
