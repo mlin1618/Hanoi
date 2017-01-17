@@ -18,7 +18,7 @@ public class TowersOfHanoi {
         }
         else{
             solve(x-1, from, 6-(to+from));
-            solve(1, from, to );
+            solve(1, from, to);
             solve(x-1, 6-(to+from), to);
         }
     }
